@@ -140,3 +140,15 @@ Here is an output for https://pebble-appstore.romanport.com/api/?limit=1&offset=
    }
 }
 ```
+
+# Categories And Their IDs
+Here is a table with the original names, ids, and colors of the six categories. Watchapps are their own category, but aren't listed here.
+
+| Name                    | ID                       | Color Hex Code |
+| ----------------------- | ------------------------ | -------------- |
+| Daily                   | 5261a8fb3b773043d500000c | #3db9e6 |
+| Tools & Utilities       | 5261a8fb3b773043d500000f | #fdbf37 |
+| Notifications           | 5261a8fb3b773043d5000001 | #FF9000 |
+| Remotes                 | 5261a8fb3b773043d5000008 | #fc4b4b |
+| Heath & Fitness         | 5261a8fb3b773043d5000004 | #98D500 |
+| Games                   | 5261a8fb3b773043d5000012 | #b57ad3 |
