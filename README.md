@@ -9,17 +9,6 @@ To create a request, send a GET request to https://pebble-appstore.romanport.com
 | ---------- | -------- | ---------------------------------- | ----------- |
 | &limit=    | Yes      | &limit=20                          | This is the maximum number of entries that are returned. It can be anywhere between 1-100. |
 | &type=     | Yes       | &type=watchapp                     | This filters the search between watchapp and watchface. Right now, valid entries are ``watchapp`` and ``watchface``. |
-| path_banner       | string        | The URL to the banner image. You should look at the decoding URLs section. |
-| path_screenshots  | string array  | An array containing the URLs to screenshots. |
-| basalt_compat     | int           | Firmware version compat for basalt. | 
-| path_icon         | string        | URL to the icon. |
-| id                | string        | The ID of the app. | 
-| category          | string        | The name of the category. |
-| path_raw          | string        | URL to the raw JSON data from the Pebble servers. |
-| uuid              | string        | The UUID of the app. |
-| author            | string        | The name of the author. |
-| devID             | string        | The ID of the developer. |
-| com_ios           | string        | The URL to a companion . |
 | &offset=   | No       | &offset=20                         | This is the offset in the datbase that is applied after all operations except for limit. |
 | &sort=     | No       | &sort=POPULAR                      | This changes the sort mode applied before any other operation. Valid requests are ``DATE``, ``POPULAR``, ``NAME``, ``CATEGORY``, and ``RANDOM``. |
 | &search=   | No       | &search=Discord                    | This is a basic text search parameter. As of now, it will only see if the name contains the string passed. This will be changed in the future. |
