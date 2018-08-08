@@ -1,6 +1,15 @@
 # Pebble-Appstore-API-Documentation
 Documentation for my Pebble Appstore API.
 
+# Warning
+This is for the old API v1 endpoint. This endpoint is ugly and has been replaced. Stay tuned for the update on the v2 API that the appstore currently uses. API endpoint v1 doesn't support the following, while API v2 does.
+* Custom assets for each platform. Everything is Basalt here!
+* Apps released later at https://get-rpws.com/publish/ will not appear in the API v1 results.
+* Apps released after late June will not appear in the API v1 results.
+* A whole lot of information is missing in API v1 results.
+
+At the moment, there is no endpoint for API v2. This will change soon. The appstore is currently using a version of API v2 that emulates the v1 format.
+
 # Input
 To create a request, send a GET request to https://pebble-appstore.romanport.com/api/. This URL will take in parameters through the URL. The table below describes how to do this.
 
